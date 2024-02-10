@@ -1,0 +1,2964 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (min-width:425px) {
+
+    .blue {
+        /* width: 425px; */
+        position: relative;
+        background-color: rgb(84, 72, 177);
+        overflow: hidden;
+
+    }
+
+    .parent {
+
+        width: 50px;
+        height: 40px;
+        float: right;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 8px;
+        padding-bottom: 1px;
+    }
+
+    .divider {
+
+        width: 30px;
+        margin: 9px;
+        border: 1px solid aliceblue;
+    }
+
+    .logo {
+        padding-top: 20px;
+        padding-left: 30px;
+        font-size: 25px;
+        font-weight: 550;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .navul {
+        display: none;
+    }
+
+    #phone {
+        display: none;
+    }
+
+    .hello {
+        width: 120px;
+        position: absolute;
+        text-align: center;
+        left: 77px;
+        top: 71px;
+        background-color: white;
+        border-radius: 10px;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 2px 10px 2px 10px;
+    }
+
+    .info {
+        position: absolute;
+        padding-top: 20px;
+        padding-left: 25px;
+        padding-bottom: 25px;
+    }
+
+    .info img {
+        width: 45px;
+
+        clip-path: circle();
+
+    }
+
+    .info p {
+        margin-top: 5px;
+        margin-bottom: 10px;
+        width: 240px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 15px;
+        padding: 3px 3px 2px 3px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 14px;
+        color: rgb(44, 213, 53);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .info a {
+
+        width: 40px;
+        background-color: antiquewhite;
+        color: rgb(84, 72, 177);
+        text-decoration: none;
+        font-size: 9.5px;
+        font-weight: 600;
+        padding: 5px 7px 5px 10px;
+        border-radius: 14px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    .info a:hover {
+        cursor: pointer;
+        color: red;
+    }
+
+    .potrait {
+        display: none;
+        width: 170px;
+        left: 275px;
+        bottom: 30px;
+        position: absolute;
+    }
+
+    .wave {
+        width: 825px;
+        margin-top: 20px;
+        margin-bottom: -20px;
+
+    }
+
+    .white {
+        /* width: 425px; */
+        padding-top: 30px;
+        padding-bottom: 40px;
+        background-color: rgb(255, 255, 255);
+
+    }
+
+    .cpl img {
+        width: 300px;
+        margin-left: 60px;
+        border-radius: 10px;
+
+    }
+
+    .story {
+
+        height: 225px;
+        padding-top: 40px;
+
+
+    }
+
+    .mystory {
+        list-style-type: none;
+        margin-top: -10px;
+        margin-left: 50px;
+        width: 310px;
+        height: 100px;
+        border-radius: 8px;
+        background-color: rgb(20, 183, 137);
+    }
+
+    .mystory img {
+        position: absolute;
+        width: 135px;
+        clip-path: circle();
+        margin-top: 5px;
+        margin-left: 190px;
+
+    }
+
+    .mystory h3 {
+        position: absolute;
+        margin-left: 90px;
+        margin-top: 38px;
+        font-size: 25px;
+        color: white;
+    }
+
+    .storyinfo h3 {
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+
+    .storyinfo p {
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 12px;
+    }
+
+    .box {
+        /* width: 425px; */
+        background-color: #f7f6f6;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+    }
+
+    table {
+        width: 300px;
+        margin-left: 65px;
+        border: 1px solid rgb(180, 180, 180);
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+    }
+
+    .color th hr {
+        position: absolute;
+        background-color: rgb(175, 175, 175);
+        margin-top: 8px;
+        margin-left: -10px;
+        width: 298px;
+    }
+
+    table th {
+        color: rgb(9, 182, 135);
+        font-size: 10px;
+        padding: 8px;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    table h4 {
+        color: black;
+        font-size: 20px;
+
+    }
+
+    table td {
+        font-size: 9.5px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .color {
+        background-color: #f7f6f6;
+    }
+
+    .line {
+        position: absolute;
+        margin-left: 193px;
+        margin-top: 41.5px;
+        width: 0.3px;
+        height: 117px;
+        background-color: rgb(180, 180, 180);
+    }
+
+    .number {
+
+        width: 350px;
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 90px;
+        margin-top: 20px;
+        text-align: center;
+
+    }
+
+    .number li {
+        width: 110px;
+        padding: 10px;
+    }
+
+    .number li h2 {
+        font-size: 35px;
+        color: rgb(54, 49, 49)
+    }
+
+    .number li h6 {
+        color: rgb(87, 191, 158)
+    }
+
+    .number1 {
+        border-right: 1px solid rgb(226, 226, 226);
+    }
+
+    .number2 {
+        border-bottom: 1px solid rgb(226, 226, 226);
+    }
+
+    .number3 {
+        margin-top: -1px;
+        border-top: 1px solid rgb(226, 226, 226);
+    }
+
+    .number4 {
+        border-left: 1px solid rgb(226, 226, 226);
+    }
+
+    .company {
+        background-color: rgb(255, 255, 255);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        /* width: 425px; */
+        /* display: flex;
+        flex-wrap: wrap; */
+    }
+
+    .company h2 {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    li img {
+        width: 200px;
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+
+    .service {
+        padding-top: 25px;
+        padding-bottom: 40px;
+        /* width: 425px; */
+        background-color: rgb(237, 236, 236);
+        ;
+
+    }
+
+    .servicebox {
+        margin-left: 60px;
+        width: 300px;
+        background-color: rgb(20, 183, 137);
+        border-radius: 10px;
+    }
+
+    .servicebox img {
+        width: 110px;
+        margin-left: 40px;
+        margin-top: 5px;
+        clip-path: circle();
+    }
+
+    .servicebox h4 {
+        position: absolute;
+        margin-top: 30px;
+        margin-left: 150px;
+        font-size: 20px;
+        color: white;
+        font-family: Arial;
+    }
+
+    .services li {
+
+        width: 310px;
+
+        margin-top: 20px;
+        margin-left: 50px;
+        padding-bottom: 14px;
+        background-color: white;
+        border-radius: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        overflow: hidden;
+    }
+
+    .services h4 {
+        padding-top: 20px;
+        margin-left: 25px;
+        font-size: 19px;
+        font-family: Arial;
+
+    }
+
+    .services h6 {
+        width: 40px;
+        position: absolute;
+        text-align: center;
+        font-family: sans-serif;
+        margin-left: 230px;
+        margin-top: -20px;
+        border-radius: 10px;
+        font-size: 8px;
+        font-weight: 600;
+        background-color: rgb(83, 93, 161);
+        color: white;
+        padding: 5px 5px 5px 5px;
+    }
+
+    .services hr {
+        margin-top: 10px;
+        margin-left: 25px;
+        width: 260px;
+        background-color: rgb(213, 213, 213);
+    }
+
+    .services p {
+
+        padding: 20px;
+        font-size: 11px;
+        color: #9b9b9b;
+    }
+
+    .services a {
+        margin-top: 10px;
+        width: 40px;
+        text-decoration: none;
+        border: 1px solid rgb(233, 233, 233);
+        border-radius: 13px;
+        border-style: solid;
+        margin-left: 20px;
+        font-family: Arial;
+        font-size: 11px;
+        font-weight: 600;
+        color: rgb(141, 141, 141);
+        padding: 5px 15px 5px 15px;
+    }
+
+    .services i {
+        margin-top: 20px;
+        margin-left: 192px;
+        margin-bottom: -40px;
+        transform: rotate(-45deg);
+        font-size: 40px;
+        padding: 45px;
+        border: 1px solid rgb(237, 236, 236);
+        border-radius: 15px;
+        text-align: center;
+    }
+
+    .project {
+        padding-top: 30px;
+        padding-bottom: 20px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .projectbox {
+        margin-left: 60px;
+        width: 300px;
+        height: 100px;
+        background-color: rgb(20, 183, 137);
+        border-radius: 10px;
+    }
+
+    .projectbox img {
+
+        width: 90px;
+        margin-left: 40px;
+        margin-top: -15px;
+        clip-path: circle();
+    }
+
+    .projectbox h4 {
+        position: absolute;
+        margin-top: 40px;
+        margin-left: 150px;
+        font-size: 25px;
+        color: white;
+        font-family: Arial;
+    }
+
+    .projects li {
+        width: 250px;
+        margin-top: 30px;
+        margin-left: 85px;
+        padding-bottom: 14px;
+        background-color: rgb(245, 245, 245);
+        border-radius: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        overflow: hidden;
+    }
+
+    .projects img {
+        margin-top: 50px;
+        transform: rotate(9deg);
+        width: 200px;
+        border-radius: 15px;
+        overflow: hidden;
+        margin-left: 15px;
+        margin-bottom: -40px;
+
+    }
+
+    .projects h6 {
+        margin-top: 25px;
+        margin-left: 20px;
+        font-size: 9px;
+        color: rgb(20, 183, 137);
+    }
+
+    .projects h4 {
+        margin-top: 4px;
+        margin-left: 20px;
+    }
+
+    .say {
+        padding-top: 40px;
+        padding-bottom: 60px;
+        background-color: #f4f3f3;
+    }
+
+    .saybox {
+        margin-left: 60px;
+        width: 300px;
+        background-color: rgb(20, 183, 137);
+        border-radius: 10px;
+    }
+
+    .saybox img {
+        width: 110px;
+        margin-left: 40px;
+        margin-top: 5px;
+        clip-path: circle();
+    }
+
+    .saybox h4 {
+        position: absolute;
+        margin-top: 30px;
+        margin-left: 150px;
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        font-family: arial;
+
+    }
+
+    .says {
+        width: 380px;
+        background-color: white;
+
+
+        margin-bottom: 10px;
+        display: flex;
+        border-radius: 10px;
+    }
+
+    .says li {
+        width: 192.5px;
+        margin-left: 20px;
+
+
+    }
+
+    .link {
+        border-right: 1px solid rgb(219, 219, 219);
+
+    }
+
+    .link a {
+        text-decoration: none;
+        border: 1px solid rgb(230, 230, 230);
+        font-size: 9px;
+        font-weight: 500;
+        display: inline-block;
+        padding: 4px 8px 4px 8px;
+        margin-left: 10px;
+        margin-bottom: 5px;
+        border-radius: 10px;
+        text-align: center;
+        color: rgb(137, 137, 137);
+
+    }
+
+    .link a:hover {
+        cursor: pointer;
+
+        color: #ef9d9d;
+    }
+
+    .link i {
+        font-size: 12px;
+        margin-top: 8px;
+        margin-left: 5px;
+        margin-bottom: 8px;
+        border: 1px solid rgb(209, 209, 209);
+        padding: 7px;
+        border-radius: 15px;
+
+    }
+
+    .link i:hover {
+        cursor: pointer;
+        color: rgb(255, 0, 195);
+    }
+
+    .says h6 {
+        padding-top: 10px;
+        font-size: 9px;
+        padding-bottom: 2px;
+
+    }
+
+    .says p {
+        color: #6a6a6a;
+        margin-bottom: 5px;
+        margin-top: px;
+        font-size: 12px;
+        padding: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+        margin-right: 5px;
+    }
+
+    form {
+        margin-left: 30px;
+
+    }
+
+    form input {
+        margin-top: 20px;
+        width: 160px;
+        margin-left: 8px;
+        padding: 5px 5px 5px 5px;
+        font-size: 10px;
+        border: 1px solid rgb(224, 224, 224);
+
+
+    }
+
+    form ul {
+        display: flex;
+        margin-top: 20px;
+        text-align: center;
+        border-radius: 10px;
+
+
+    }
+
+    form li {
+        width: 70px;
+        margin-left: 10px;
+        border: 1px solid rgb(213, 212, 212);
+        padding: 5px;
+        font-size: 10px;
+        background-color: white;
+    }
+
+    form li i {
+        margin-top: 6px;
+        color: rgb(20, 183, 137);
+    }
+
+    form li i:hover {
+        cursor: pointer;
+        color: rgb(196, 15, 45);
+    }
+
+    form li h3 {
+        margin-top: 10px;
+        font-size: 10px;
+        font-weight: 200;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(89, 89, 89);
+    }
+
+    textarea {
+        margin-top: 20px;
+        margin-left: 10px;
+        width: 340px;
+        padding: 5px;
+        font-size: 11px;
+        border: 1px solid rgb(213, 213, 213);
+    }
+
+    .send {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 70px;
+        margin-right: 60px;
+        float: right;
+        /* border:1px solid black; */
+        padding: 7px 5px 7px 5px;
+        text-decoration: none;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 10px;
+        font-weight: 600;
+        color: white;
+        background-color: rgb(20, 183, 137);
+    }
+
+    footer {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    footer p {
+        font-size: 9px;
+
+    }
+}
+
+/* ********************media screen only 768px************************************ */
+
+@media screen and (min-width:768px) {
+    .blue {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .logo {
+        width: 80px;
+        padding-top: 10px;
+        padding-left: 90px;
+        font-size: 25px;
+        font-weight: 550;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .parent {
+        display: none;
+    }
+
+    .navul {
+        position: relative;
+        display: inline;
+        float: right;
+        margin-top: -20px;
+        margin-right: 410px;
+
+    }
+
+    .navul a {
+        text-decoration: none;
+        color: white;
+        font-size: 7px;
+        padding: 5px;
+    }
+
+    .navul a:hover {
+        color: rgb(0, 203, 169);
+        border-bottom: 1px solid rgb(0, 203, 169);
+    }
+
+    #home {
+        color: rgb(0, 203, 169);
+        border-bottom: 1px solid rgb(0, 203, 169);
+    }
+
+    #phone {
+        display: inline;
+        float: right;
+        margin-top: -40px;
+        margin-right: 50px;
+
+    }
+
+    #phone a {
+        text-decoration: none;
+        color: white;
+        border: 1px solid black;
+        font-size: 14px;
+        padding: 5px 10px 5px 10px;
+        border-radius: 20px;
+    }
+
+    #phone a:hover {
+        background: white;
+        color: black;
+    }
+
+    #phone i {
+        border: 1px solid black;
+        font-size: 14px;
+        padding: 10px;
+        border-radius: 20px;
+        background: white;
+    }
+
+    .hello {
+        width: 160px;
+        position: absolute;
+        text-align: center;
+        left: 145px;
+        top: 120px;
+        background-color: white;
+        border-radius: 20px;
+        font-size: 23px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 2px 10px 2px 10px;
+    }
+
+    .info {
+        position: absolute;
+        padding-top: 20px;
+        padding-left: 80px;
+        padding-bottom: 25px;
+    }
+
+    .info img {
+        margin-top: 30px;
+        width: 70px;
+        /* margin-left: 60px; */
+        clip-path: circle();
+    }
+
+    .info p {
+        margin-top: 5px;
+        margin-bottom: 15px;
+        width: 280px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 15px;
+        padding: 4px 4px 4px 4px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 14px;
+        color: rgb(44, 213, 53);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .info a {
+
+        background-color: antiquewhite;
+        color: rgb(84, 72, 177);
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 600;
+
+        padding: 5px 12px 5px 12px;
+        border-radius: 14px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    .info a:hover {
+        cursor: pointer;
+        color: red;
+    }
+
+    .wh {
+        background-color: white;
+        margin-left: 500px;
+        border-radius: 150px;
+        margin-top: 40px;
+        width: 140px;
+        height: 140px;
+        position: absolute;
+    }
+
+    .potrait {
+        display: inline;
+        width: 250px;
+        left: 450px;
+        bottom: 40px;
+        position: absolute;
+    }
+
+    .wave {
+        width: 1025px;
+        margin-top: 20px;
+        margin-bottom: -30px;
+
+    }
+
+    .white {
+        padding-top: 30px;
+        padding-bottom: 40px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    #white1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .cpl img {
+        width: 350px;
+        margin-left: 30px;
+        border-radius: 10px;
+
+    }
+
+    .story {
+        width: 300px;
+        height: 225px;
+        padding-top: 30px;
+
+
+    }
+
+    .mystory {
+
+        list-style-type: none;
+        margin-top: -10px;
+        margin-left: 40px;
+        width: 310px;
+        height: 100px;
+        border-radius: 8px;
+        background-color: rgb(20, 183, 137);
+    }
+
+    .mystory img {
+        width: 125px;
+        margin-top: 10px;
+        margin-left: 190px;
+        padding: 0px;
+    }
+
+    .mystory h3 {
+        position: absolute;
+        margin-left: 90px;
+        margin-top: 38px;
+        font-size: 25px;
+        color: white;
+    }
+
+    .storyinfo h3 {
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+
+    .storyinfo p {
+        width: 300px;
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 11px;
+        text-align: justify;
+    }
+
+
+    .box {
+
+        background-color: #f7f6f6;
+        padding-top: 30px;
+        padding-bottom: 40px;
+        display: flex;
+
+
+    }
+
+    table {
+        width: 340px;
+        margin-left: 65px;
+        border: 1px solid rgb(180, 180, 180);
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+    }
+
+    .color th hr {
+        position: absolute;
+        background-color: rgb(175, 175, 175);
+        margin-top: 8px;
+        margin-left: -10px;
+        width: 298px;
+    }
+
+    table th {
+        color: rgb(9, 182, 135);
+        font-size: 11px;
+        padding: 8px;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    table h4 {
+        color: black;
+        font-size: 20px;
+
+    }
+
+    table td {
+        font-size: 10px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .color {
+        background-color: #f7f6f6;
+    }
+
+    .line {
+        position: absolute;
+        margin-left: 193px;
+        margin-top: 41.5px;
+        width: 0.3px;
+        height: 117px;
+        background-color: rgb(180, 180, 180);
+    }
+
+    .number {
+
+        width: 350px;
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 40px;
+        margin-top: 10px;
+        text-align: center;
+
+    }
+
+    .number li {
+        width: 110px;
+        padding: 10px;
+    }
+
+    .number li h2 {
+        font-size: 30px;
+        margin-bottom: 5px;
+        color: rgb(54, 49, 49)
+    }
+
+    .number li h6 {
+        color: rgb(87, 191, 158)
+    }
+
+    .number1 {
+        border-right: 1px solid rgb(226, 226, 226);
+    }
+
+    .number2 {
+        border-bottom: 1px solid rgb(226, 226, 226);
+    }
+
+    .number3 {
+        margin-top: -1px;
+        border-top: 1px solid rgb(226, 226, 226);
+    }
+
+    .number4 {
+        border-left: 1px solid rgb(226, 226, 226);
+    }
+
+    .company {
+        background-color: rgb(255, 255, 255);
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+    }
+
+    .company h2 {
+
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .comp {
+        list-style-type: none;
+        display: flex;
+    }
+
+    li img {
+        width: 100px;
+        margin-top: 20px;
+        margin-left: 20px;
+        padding: 10px;
+    }
+
+    .service {
+        padding-top: 25px;
+        padding-bottom: 40px;
+        background-color: rgb(237, 236, 236);
+
+    }
+
+    .servicebox {
+        margin-left: 60px;
+        width: 660px;
+        background-color: rgb(20, 183, 137);
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .servicebox img {
+        width: 140px;
+        margin-left: 160px;
+        margin-top: 5px;
+        clip-path: circle();
+    }
+
+    .servicebox h4 {
+        position: absolute;
+        margin-top: 35px;
+        margin-left: 300px;
+        font-size: 35px;
+        color: white;
+        font-family: Arial;
+    }
+
+    .services {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .services li {
+        width: 310px;
+        margin-top: 20px;
+        margin-left: 50px;
+        padding-bottom: 14px;
+        background-color: white;
+        border-radius: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        overflow: hidden;
+    }
+
+    .services h4 {
+        padding-top: 20px;
+        margin-left: 25px;
+        font-size: 19px;
+        font-family: Arial;
+
+    }
+
+    .services h6 {
+        width: 60px;
+        position: absolute;
+        text-align: center;
+        font-family: sans-serif;
+        margin-left: 210px;
+        margin-top: -20px;
+        border-radius: 12px;
+        font-size: 9px;
+        font-weight: 600;
+        background-color: rgb(83, 93, 161);
+        color: white;
+        padding: 6px 5px 6px 5px;
+    }
+
+    .services hr {
+        margin-top: 10px;
+        margin-left: 25px;
+        width: 260px;
+        background-color: rgb(213, 213, 213);
+    }
+
+    .services p {
+
+        padding: 20px;
+        font-size: 12px;
+        color: #9b9b9b;
+    }
+
+    .services a {
+        margin-top: 10px;
+        width: 40px;
+        text-decoration: none;
+        border: 1px solid rgb(233, 233, 233);
+        border-radius: 13px;
+        border-style: solid;
+        margin-left: 20px;
+        font-family: Arial;
+        font-size: 11px;
+        font-weight: 600;
+        color: rgb(141, 141, 141);
+        padding: 5px 15px 5px 15px;
+    }
+
+    .services i {
+        margin-top: 20px;
+        margin-left: 192px;
+        margin-bottom: -50px;
+        transform: rotate(-45deg);
+        font-size: 50px;
+        padding: 45px;
+        border: 1px solid rgb(237, 236, 236);
+        border-radius: 15px;
+        text-align: center;
+    }
+
+    .project {
+        padding-top: 30px;
+        padding-bottom: 20px;
+        background-color: rgb(255, 252, 252);
+    }
+
+    .projectbox {
+        margin-left: 360px;
+        width: 350px;
+        height: 100px;
+        background-color: rgb(20, 183, 137);
+        border-radius: 10px;
+        padding-bottom: 10px;
+
+    }
+
+    .projectbox img {
+
+        width: 95px;
+        margin-left: 60px;
+        margin-top: -15px;
+        clip-path: circle();
+    }
+
+    .projectbox h4 {
+        position: absolute;
+        margin-top: 40px;
+        margin-left: 180px;
+        font-size: 30px;
+        color: white;
+        font-family: Arial;
+    }
+
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .projects li {
+        width: 220px;
+        margin-top: 30px;
+        margin-left: 30px;
+        padding-bottom: 14px;
+        background-color: rgb(243, 243, 243);
+        border-radius: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        overflow: hidden;
+    }
+
+    .projects img {
+        margin-top: 40px;
+        transform: rotate(9deg);
+        width: 170px;
+        border-radius: 20px;
+        overflow: hidden;
+        margin-left: 10px;
+        margin-bottom: -50px;
+
+    }
+
+    .projects h6 {
+        margin-top: 25px;
+        margin-left: 20px;
+        font-size: 9px;
+        color: rgb(20, 183, 137);
+    }
+
+    .projects h4 {
+        margin-top: 4px;
+        margin-left: 20px;
+    }
+
+
+    .say {
+        padding-top: 40px;
+        padding-bottom: 60px;
+        background-color: #f4f3f3;
+    }
+
+    .saybox {
+        margin-left: 30px;
+        width: 330px;
+        background-color: rgb(20, 183, 137);
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .saybox img {
+        width: 130px;
+        margin-left: 40px;
+        margin-top: 5px;
+        clip-path: circle();
+    }
+
+    .saybox h4 {
+        position: absolute;
+        margin-top: 35px;
+        margin-left: 160px;
+        font-size: 25px;
+        color: rgb(255, 255, 255);
+        font-family: arial;
+
+    }
+
+    #lap {
+        display: flex;
+    }
+
+    .says {
+        width: 350px;
+        background-color: rgb(255, 255, 255);
+        margin-left: 30px;
+        margin-bottom: 10px;
+        display: flex;
+        border-radius: 10px;
+    }
+
+    .says li {
+        width: 192.5px;
+        margin-left: 20px;
+    }
+
+    .link {
+        border-right: 1px solid rgb(219, 219, 219);
+    }
+
+    .link a {
+        text-decoration: none;
+        border: 1px solid rgb(230, 230, 230);
+        font-size: 9px;
+        font-weight: 500;
+        display: inline-block;
+        padding: 4px 8px 4px 8px;
+        margin-left: 10px;
+        margin-bottom: 5px;
+        border-radius: 10px;
+        text-align: center;
+        color: rgb(137, 137, 137);
+
+    }
+
+    .link a:hover {
+        cursor: pointer;
+
+        color: #ef9d9d;
+    }
+
+    .link i {
+        font-size: 12px;
+        margin-top: 8px;
+        margin-left: 5px;
+        margin-bottom: 8px;
+        border: 1px solid rgb(209, 209, 209);
+        padding: 7px;
+        border-radius: 15px;
+
+    }
+
+    .link i:hover {
+        cursor: pointer;
+        color: rgb(255, 0, 195);
+    }
+
+    .says h6 {
+        padding-top: 10px;
+        font-size: 9px;
+        padding-bottom: 2px;
+
+    }
+
+    .says p {
+        color: #6a6a6a;
+        margin-bottom: 5px;
+        margin-top: px;
+        font-size: 11px;
+        padding: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+        margin-right: 5px;
+    }
+
+    form {
+        margin-left: 30px;
+
+    }
+
+    form input {
+        margin-top: 20px;
+        width: 130px;
+        margin-left: 8px;
+        padding: 5px 5px 5px 5px;
+        font-size: 10px;
+        border: 1px solid rgb(224, 224, 224);
+        border-radius: 5px;
+
+
+    }
+
+    form ul {
+        display: flex;
+        margin-top: 20px;
+        text-align: center;
+        border-radius: 10px;
+
+
+    }
+
+    form li {
+        width: 55px;
+        margin-left: 10px;
+        border: 1px solid rgb(213, 212, 212);
+        padding: 5px;
+        font-size: 10px;
+        background-color: white;
+        border-radius: 5px;
+    }
+
+    form li i {
+        margin-top: 6px;
+        color: rgb(20, 183, 137);
+    }
+
+    form li i:hover {
+        cursor: pointer;
+        color: rgb(196, 15, 45);
+    }
+
+    form li h3 {
+        margin-top: 10px;
+        font-size: 10px;
+        font-weight: 200;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(89, 89, 89);
+    }
+
+    textarea {
+        margin-top: 20px;
+        margin-left: 10px;
+        width: 290px;
+        padding: 5px;
+        font-size: 11px;
+        border: 1px solid rgb(213, 213, 213);
+        border-radius: 10px;
+    }
+
+    .send {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 70px;
+        margin-right: 60px;
+        float: right;
+
+        padding: 7px 5px 7px 5px;
+        text-decoration: none;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 10px;
+        font-weight: 600;
+        color: white;
+        background-color: rgb(20, 183, 137);
+    }
+
+    footer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    footer p {
+        font-size: 10px;
+
+    }
+}
+
+/* ********************media screen only 1024px************************************ */
+
+@media screen and (min-width:1024px) {
+    .blue {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        height: 400px;
+    }
+
+    .logo {
+        width: 450px;
+        padding-top: 10px;
+        padding-left: 90px;
+        font-size: 30px;
+        font-weight: 550;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .parent {
+        display: none;
+    }
+
+    .navul {
+        position: relative;
+        display: inline;
+        float: right;
+        margin-top: -30px;
+        margin-right: 550px;
+
+    }
+
+    .navul a {
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+        padding: 5px;
+    }
+
+    .navul a:hover {
+        color: rgb(0, 203, 169);
+        border-bottom: 1px solid rgb(0, 203, 169);
+    }
+
+    #home {
+        color: rgb(0, 203, 169);
+        border-bottom: 1px solid rgb(0, 203, 169);
+    }
+
+
+    #phone {
+        display: inline;
+        float: right;
+        margin-top: -40px;
+        margin-right: 100px;
+
+    }
+
+    #phone a {
+        text-decoration: none;
+        color: white;
+        border: 1px solid black;
+        font-size: 15px;
+        padding: 8px 15px 8px 15px;
+        border-radius: 20px;
+    }
+
+    #phone a:hover {
+        background: white;
+        color: black;
+    }
+
+    #phone i {
+        border: 1px solid black;
+        font-size: 14px;
+        padding: 10px;
+        border-radius: 20px;
+        background: white;
+    }
+
+    .hello {
+        width: 200px;
+        position: absolute;
+        text-align: center;
+        left: 180px;
+        top: 205px;
+        background-color: white;
+        border-radius: 25px;
+        font-size: 30px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    .info {
+        position: absolute;
+        padding-top: 100px;
+        padding-left: 80px;
+        padding-bottom: 25px;
+    }
+
+    .info img {
+        margin-top: 30px;
+        width: 100px;
+
+        clip-path: circle();
+    }
+
+    .info p {
+        margin-top: 5px;
+        margin-bottom: 15px;
+        width: 400px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 22px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        color: rgb(44, 213, 53);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .info a {
+
+        background-color: antiquewhite;
+        color: rgb(84, 72, 177);
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 600;
+        border-radius: 20px;
+        padding: 5px 12px 5px 12px;
+        border-radius: 14px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    .info a:hover {
+        cursor: pointer;
+        color: red;
+    }
+
+    .wh {
+        background-color: white;
+        margin-left: 650px;
+        border-radius: 150px;
+        margin-top: 40px;
+        width: 200px;
+        height: 200px;
+        position: absolute;
+    }
+
+    .potrait {
+        display: inline;
+        width: 360px;
+        left: 580px;
+        bottom: 90px;
+        position: absolute;
+    }
+
+    .wave {
+        width: 1325px;
+        margin-top: 100px;
+        margin-bottom: -30px;
+    }
+
+
+    .white {
+        padding-top: 30px;
+        padding-bottom: 40px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    #white1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .cpl img {
+        width: 460px;
+        margin-left: 30px;
+        border-radius: 30px;
+
+    }
+
+    .story {
+        width: 460px;
+        height: 225px;
+        padding-top: 30px;
+
+
+    }
+
+    .mystory {
+        list-style-type: none;
+        margin-top: 5px;
+        margin-left: 40px;
+        width: 430px;
+        height: 100px;
+        border-radius: 8px;
+        background-color: rgb(20, 183, 137);
+    }
+
+    .mystory img {
+        position: absolute;
+        width: 130px;
+        clip-path: circle();
+        padding: 0px;
+        margin-top: 8px;
+        margin-left: 290px;
+
+    }
+
+    .mystory h3 {
+        position: absolute;
+        margin-left: 150px;
+        margin-top: 38px;
+        font-size: 30px;
+        color: white;
+    }
+
+    .storyinfo h3 {
+        font-size: 25px;
+        margin-top: 25px;
+        margin-left: 50px;
+    }
+
+    .storyinfo p {
+        width: 400px;
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 14px;
+        text-align: justify;
+    }
+
+
+    .box {
+
+        background-color: #f7f6f6;
+        padding-top: 30px;
+        padding-bottom: 40px;
+        display: flex;
+
+
+    }
+
+    table {
+        width: 480px;
+        margin-left: 65px;
+        border: 1px solid rgb(180, 180, 180);
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+    }
+
+    .color th hr {
+        position: absolute;
+        background-color: rgb(175, 175, 175);
+        margin-top: 8px;
+        margin-left: -10px;
+        width: 473px;
+    }
+
+    table th {
+        color: rgb(9, 182, 135);
+        font-size: 18px;
+        padding: 8px;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    table h4 {
+        color: black;
+        font-size: 20px;
+
+    }
+
+    table td {
+        font-size: 13px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .color {
+        background-color: #f7f6f6;
+    }
+
+    .line {
+        position: absolute;
+        margin-left: 284px;
+        margin-top: 42.5px;
+        width: 0.3px;
+        height: 155px;
+        background-color: rgb(180, 180, 180);
+    }
+
+    .number {
+
+        width: 450px;
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 40px;
+        margin-top: 10px;
+        text-align: center;
+
+    }
+
+    .number li {
+        width: 130px;
+        padding: 10px;
+    }
+
+    .number li h2 {
+        text-align: justify;
+        font-size: 35px;
+        margin-bottom: 5px;
+        color: rgb(54, 49, 49);
+    }
+
+    .number li h6 {
+        font-size: 11px;
+        text-align: justify;
+        color: rgb(87, 191, 158)
+    }
+
+    .number1 {
+        border-right: 1px solid rgb(226, 226, 226);
+    }
+
+    .number2 {
+        border-bottom: 1px solid rgb(226, 226, 226);
+    }
+
+    .number3 {
+        margin-top: -1px;
+        border-top: 1px solid rgb(226, 226, 226);
+    }
+
+    .number4 {
+
+        border-left: 1px solid rgb(226, 226, 226);
+    }
+
+    .company {
+        background-color: rgb(255, 255, 255);
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+    }
+
+    .company h2 {
+        font-size: 30px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .comp {
+        list-style-type: none;
+        display: flex;
+    }
+
+    li img {
+        width: 140px;
+        margin-top: 20px;
+        margin-left: 20px;
+        padding: 10px;
+    }
+
+    .service {
+        padding-top: 25px;
+        padding-bottom: 40px;
+        background-color: rgb(237, 236, 236);
+
+    }
+
+    .servicebox {
+        margin-left: 75px;
+        width: 860px;
+        background-color: rgb(20, 183, 137);
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .servicebox img {
+        width: 160px;
+        margin-left: 260px;
+        margin-top: 5px;
+        clip-path: circle();
+    }
+
+    .servicebox h4 {
+        position: absolute;
+        margin-top: 40px;
+        margin-left: 400px;
+        font-size: 35px;
+        color: white;
+        font-family: Arial;
+    }
+
+    .services {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 20px;
+    }
+
+    .services li {
+        width: 400px;
+        margin-top: 20px;
+        margin-left: 50px;
+        padding-bottom: 14px;
+        background-color: white;
+        border-radius: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        overflow: hidden;
+    }
+
+    .services h4 {
+        padding-top: 20px;
+        margin-left: 25px;
+        font-size: 22px;
+        font-family: Arial;
+
+    }
+
+    .services h6 {
+        width: 60px;
+        position: absolute;
+        text-align: center;
+        font-family: sans-serif;
+        margin-left: 280px;
+        margin-top: -25px;
+        border-radius: 12px;
+        font-size: 12px;
+        font-weight: 600;
+        background-color: rgb(83, 93, 161);
+        color: white;
+        padding: 6px 5px 6px 5px;
+    }
+
+    .services hr {
+        margin-top: 10px;
+        margin-left: 25px;
+        width: 350px;
+        background-color: rgb(213, 213, 213);
+    }
+
+    .services p {
+
+        padding: 20px;
+        font-size: 14px;
+        color: #9b9b9b;
+    }
+
+    .services a {
+        margin-bottom: 10px;
+        width: 50px;
+        text-decoration: none;
+        border: 1px solid rgb(233, 233, 233);
+        border-radius: 13px;
+        border-style: solid;
+        margin-left: 20px;
+        font-family: Arial;
+        font-size: 12px;
+        font-weight: 600;
+        color: rgb(141, 141, 141);
+        padding: 5px 15px 5px 15px;
+    }
+
+    .services i {
+        margin-top: 20px;
+        margin-left: 252px;
+        margin-bottom: -50px;
+        transform: rotate(-45deg);
+        font-size: 80px;
+        padding: 45px;
+        border: 1px solid rgb(237, 236, 236);
+        border-radius: 15px;
+        text-align: center;
+    }
+
+    .project {
+        padding-top: 30px;
+        padding-bottom: 20px;
+        background-color: rgb(255, 252, 252);
+    }
+
+    .projectbox {
+        margin-left: 560px;
+        width: 400px;
+        height: 100px;
+        background-color: rgb(20, 183, 137);
+        border-radius: 10px;
+        padding-bottom: 10px;
+
+    }
+
+    .projectbox img {
+
+        width: 95px;
+        margin-left: 80px;
+        margin-top: -15px;
+        clip-path: circle();
+    }
+
+    .projectbox h4 {
+        position: absolute;
+        margin-top: 40px;
+        margin-left: 190px;
+        font-size: 35px;
+        color: white;
+        font-family: Arial;
+    }
+
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 20px;
+    }
+
+    .projects li {
+        width: 290px;
+        margin-top: 30px;
+        margin-left: 30px;
+        padding-bottom: 14px;
+        background-color: rgb(243, 243, 243);
+        border-radius: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        overflow: hidden;
+    }
+
+    .projects img {
+        margin-top: 40px;
+        transform: rotate(9deg);
+        width: 220px;
+        border-radius: 25px;
+        overflow: hidden;
+        margin-left: 10px;
+        margin-bottom: -50px;
+
+    }
+
+    .projects h6 {
+        margin-top: 25px;
+        margin-left: 25px;
+        font-size: 10px;
+        color: rgb(20, 183, 137);
+    }
+
+    .projects h4 {
+        font-size: 18px;
+        margin-top: 4px;
+        margin-left: 20px;
+    }
+
+
+    .say {
+        padding-top: 40px;
+        padding-bottom: 60px;
+        background-color: #f4f3f3;
+    }
+
+    .saybox {
+        margin-left: 30px;
+        width: 500px;
+        background-color: rgb(20, 183, 137);
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .saybox img {
+        width: 150px;
+        margin-left: 110px;
+        margin-top: 5px;
+        clip-path: circle();
+    }
+
+    .saybox h4 {
+        position: absolute;
+        margin-top: 35px;
+        margin-left: 250px;
+        font-size: 35px;
+        color: rgb(255, 255, 255);
+        font-family: arial;
+
+    }
+
+    #lap {
+        display: flex;
+    }
+
+    .says {
+        width: 500px;
+        background-color: rgb(255, 255, 255);
+        margin-left: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        border-radius: 10px;
+    }
+
+    .says li {
+        width: 192.5px;
+        margin-left: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .link {
+        border-right: 1px solid rgb(219, 219, 219);
+    }
+
+    .link a {
+        margin-top: 5px;
+        text-decoration: none;
+        border: 1px solid rgb(230, 230, 230);
+        font-size: 10px;
+        font-weight: 500;
+        display: inline-block;
+        padding: 4px 8px 4px 8px;
+        margin-left: 10px;
+        margin-bottom: 5px;
+        border-radius: 10px;
+        text-align: center;
+        color: rgb(137, 137, 137);
+
+    }
+
+    .link a:hover {
+        cursor: pointer;
+
+        color: #ef9d9d;
+    }
+
+    .link i {
+        font-size: 12px;
+        margin-top: 8px;
+        margin-left: 5px;
+        margin-bottom: 8px;
+        border: 1px solid rgb(209, 209, 209);
+        padding: 7px;
+        border-radius: 15px;
+
+    }
+
+    .link i:hover {
+        cursor: pointer;
+        color: rgb(255, 0, 195);
+    }
+
+    .says h6 {
+        padding-top: 10px;
+        font-size: 11px;
+        padding-bottom: 2px;
+
+    }
+
+    .says p {
+        color: #6a6a6a;
+        margin-bottom: 5px;
+        margin-top: px;
+        font-size: 12px;
+        padding: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+        margin-right: 5px;
+    }
+
+    form {
+        margin-left: 30px;
+
+    }
+
+    form input {
+        margin-top: 20px;
+        width: 180px;
+        margin-left: 8px;
+        padding: 5px 5px 5px 5px;
+        font-size: 10px;
+        border: 1px solid rgb(224, 224, 224);
+        border-radius: 5px;
+
+
+    }
+
+    form ul {
+        display: flex;
+        margin-top: 20px;
+        text-align: center;
+        border-radius: 10px;
+
+
+    }
+
+    form li {
+        width: 80px;
+        margin-left: 10px;
+        border: 1px solid rgb(213, 212, 212);
+        padding: 5px;
+        font-size: 10px;
+        background-color: white;
+        border-radius: 5px;
+    }
+
+    form li i {
+        margin-top: 6px;
+        font-size: 12px;
+        color: rgb(20, 183, 137);
+    }
+
+    form li i:hover {
+        cursor: pointer;
+        color: rgb(196, 15, 45);
+    }
+
+    form li h3 {
+        margin-top: 10px;
+        font-size: 12px;
+        font-weight: 200;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(89, 89, 89);
+    }
+
+    textarea {
+        margin-top: 20px;
+        margin-left: 10px;
+        width: 380px;
+        padding: 5px;
+        font-size: 11px;
+        border: 1px solid rgb(213, 213, 213);
+        border-radius: 10px;
+    }
+
+    .send {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100px;
+        margin-right: 80px;
+        float: right;
+
+        padding: 7px 5px 7px 5px;
+        text-decoration: none;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 600;
+        color: white;
+        background-color: rgb(20, 183, 137);
+    }
+
+    footer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    footer p {
+        font-size: 12px;
+
+    }
+}
+
+/* ***************************************************media screen only 1440px************************************ */
+
+@media screen and (min-width:1440px) {
+    .blue {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        height: 400px;
+    }
+
+    .logo {
+        width: 550px;
+        padding-top: 10px;
+        padding-left: 100px;
+        font-size: 30px;
+        font-weight: 550;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .parent {
+        display: none;
+    }
+
+    .navul {
+        position: relative;
+        display: inline;
+        float: right;
+        margin-top: -25px;
+        margin-right: 880px;
+
+    }
+
+    .navul a {
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+        padding: 10px;
+    }
+
+    .navul a:hover {
+        color: rgb(0, 203, 169);
+        border-bottom: 1px solid rgb(0, 203, 169);
+    }
+
+    #home {
+        color: rgb(0, 203, 169);
+        border-bottom: 1px solid rgb(0, 203, 169);
+    }
+
+
+    #phone {
+        display: inline;
+        float: right;
+        margin-top: -40px;
+        margin-right: 150px;
+
+    }
+
+    #phone a {
+        text-decoration: none;
+        color: white;
+        border: 1px solid rgb(255, 255, 255);
+        font-size: 15px;
+        padding: 8px 15px 8px 15px;
+        border-radius: 20px;
+    }
+
+    #phone a:hover {
+        background: white;
+        color: black;
+    }
+
+    #phone i {
+        border: 1px solid rgb(255, 255, 255);
+        font-size: 14px;
+        padding: 10px;
+        border-radius: 20px;
+        background: white;
+    }
+
+    .hello {
+        width: 200px;
+        position: absolute;
+        text-align: center;
+        left: 180px;
+        top: 205px;
+        background-color: white;
+        border-radius: 25px;
+        font-size: 30px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    .info {
+        position: absolute;
+        padding-top: 100px;
+        padding-left: 80px;
+        padding-bottom: 25px;
+    }
+
+    .info img {
+        margin-top: 30px;
+        width: 100px;
+
+        clip-path: circle();
+    }
+
+    .info p {
+        margin-top: 5px;
+        margin-bottom: 15px;
+        width: 400px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 22px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        color: rgb(44, 213, 53);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .info a {
+
+        background-color: rgb(255, 255, 255);
+        color: rgb(84, 72, 177);
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 600;
+        border-radius: 20px;
+        padding: 5px 12px 5px 12px;
+        border: 1px solid white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    .info a:hover {
+
+        color: white;
+        background: rgb(84, 72, 177);
+    }
+
+    .wh {
+        background-color: white;
+        margin-left: 950px;
+        border-radius: 150px;
+        margin-top: 30px;
+        width: 240px;
+        height: 240px;
+        position: absolute;
+    }
+
+    .potrait {
+        display: inline;
+        width: 400px;
+        left: 880px;
+
+        bottom: 70px;
+        position: absolute;
+    }
+
+    .wave {
+        width: 1990px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+
+    .white {
+        padding-top: 30px;
+        padding-bottom: 40px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    #white1 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 130px;
+    }
+
+    .cpl img {
+        width: 520px;
+        margin-left: 30px;
+        border-radius: 30px;
+
+    }
+
+    .story {
+        width: 500px;
+        height: 225px;
+        padding-top: 30px;
+
+
+    }
+
+    .mystory {
+        list-style-type: none;
+        margin-top: 5px;
+        margin-left: 40px;
+        width: 500px;
+        height: 110px;
+        border-radius: 8px;
+        background-color: rgb(20, 183, 137);
+    }
+
+    .mystory img {
+        position: absolute;
+        width: 150px;
+        clip-path: circle();
+        padding: 0px;
+        margin-top: 6px;
+        margin-left: 290px;
+
+    }
+
+    .mystory h3 {
+        position: absolute;
+        margin-left: 150px;
+        margin-top: 38px;
+        font-size: 35px;
+        color: white;
+    }
+
+
+    .storyinfo h3 {
+        font-size: 28px;
+        margin-top: 25px;
+        margin-left: 50px;
+    }
+
+    .storyinfo p {
+        width: 500px;
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 15px;
+        text-align: justify;
+    }
+
+
+    .box {
+
+        background-color: #f7f6f6;
+        padding-top: 30px;
+        padding-bottom: 40px;
+        padding-left: 120px;
+        display: flex;
+
+
+    }
+
+    table {
+        width: 510px;
+        margin-left: 120px;
+        border: 1px solid rgb(180, 180, 180);
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+    }
+
+    .color th hr {
+        position: absolute;
+        background-color: rgb(175, 175, 175);
+        margin-top: 8px;
+        margin-left: -10px;
+        width: 510px;
+    }
+
+    table th {
+        color: rgb(9, 182, 135);
+        font-size: 20px;
+        padding: 8px;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    table h4 {
+        color: black;
+        text-align: justify;
+        margin-left: 20px;
+        font-size: 25px;
+
+    }
+
+    table td {
+        font-size: 13px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .color {
+        background-color: #f7f6f6;
+    }
+
+    .line {
+        position: absolute;
+        margin-left: 364px;
+        margin-top: 46.5px;
+        width: 0.3px;
+        height: 165px;
+        background-color: rgb(180, 180, 180);
+    }
+
+    .number {
+
+        width: 500px;
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 60px;
+        margin-top: 10px;
+        text-align: center;
+
+    }
+
+    .number li {
+        width: 170px;
+        padding: 10px;
+    }
+
+    .number li h2 {
+        text-align: justify;
+        font-size: 40px;
+        margin-bottom: 5px;
+        color: rgb(54, 49, 49);
+    }
+
+    .number li h6 {
+        font-size: 11px;
+        text-align: justify;
+        color: rgb(87, 191, 158)
+    }
+
+    .number1 {
+        border-right: 1px solid rgb(226, 226, 226);
+    }
+
+    .number2 {
+        border-bottom: 1px solid rgb(226, 226, 226);
+    }
+
+    .number3 {
+        margin-top: -1px;
+        border-top: 1px solid rgb(226, 226, 226);
+    }
+
+    .number4 {
+
+        border-left: 1px solid rgb(226, 226, 226);
+    }
+
+    .company {
+        background-color: rgb(255, 255, 255);
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+    }
+
+    .company h2 {
+        font-size: 35px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .comp {
+        list-style-type: none;
+        display: flex;
+        padding-left: 120px;
+    }
+
+    li img {
+        width: 180px;
+        margin-top: 20px;
+        margin-left: 20px;
+        padding: 10px;
+    }
+
+    .service {
+        padding-top: 25px;
+        padding-bottom: 40px;
+        background-color: rgb(237, 236, 236);
+
+    }
+
+    .servicebox {
+        margin-left: 185px;
+        width: 1000px;
+        background-color: rgb(20, 183, 137);
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .servicebox img {
+        width: 160px;
+        margin-left: 360px;
+        margin-top: 5px;
+        clip-path: circle();
+    }
+
+    .servicebox h4 {
+        position: absolute;
+        margin-top: 40px;
+        margin-left: 500px;
+        font-size: 35px;
+        color: white;
+        font-family: Arial;
+    }
+
+    .services {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 140px;
+    }
+
+    .services li {
+        width: 450px;
+        margin-top: 30px;
+        margin-left: 65px;
+        padding-bottom: 14px;
+        background-color: white;
+        border-radius: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        overflow: hidden;
+    }
+
+    .services h4 {
+        padding-top: 20px;
+        margin-left: 25px;
+        font-size: 22px;
+        font-family: Arial;
+
+    }
+
+    .services h6 {
+        width: 60px;
+        position: absolute;
+        text-align: center;
+        font-family: sans-serif;
+        margin-left: 280px;
+        margin-top: -25px;
+        border-radius: 12px;
+        font-size: 12px;
+        font-weight: 600;
+        background-color: rgb(83, 93, 161);
+        color: white;
+        padding: 6px 5px 6px 5px;
+    }
+
+    .services hr {
+        margin-top: 10px;
+        margin-left: 25px;
+        width: 350px;
+        background-color: rgb(213, 213, 213);
+    }
+
+    .services p {
+
+        padding: 20px;
+        font-size: 14px;
+        color: #9b9b9b;
+    }
+
+    .services a {
+        margin-bottom: 10px;
+        width: 50px;
+        text-decoration: none;
+        border: 1px solid rgb(233, 233, 233);
+        border-radius: 13px;
+        border-style: solid;
+        margin-left: 20px;
+        font-family: Arial;
+        font-size: 12px;
+        font-weight: 600;
+        color: rgb(141, 141, 141);
+        padding: 5px 15px 5px 15px;
+    }
+
+    .services i {
+        margin-top: 20px;
+        margin-left: 252px;
+        margin-bottom: -50px;
+        transform: rotate(-45deg);
+        font-size: 80px;
+        padding: 45px;
+        border: 1px solid rgb(237, 236, 236);
+        border-radius: 15px;
+        text-align: center;
+    }
+
+    .project {
+        padding-top: 30px;
+        padding-bottom: 20px;
+        background-color: rgb(255, 252, 252);
+    }
+
+    .projectbox {
+        margin-left: 860px;
+        width: 450px;
+        height: 110px;
+        background-color: rgb(20, 183, 137);
+        border-radius: 10px;
+        padding-bottom: 10px;
+
+    }
+
+    .projectbox img {
+
+        width: 100px;
+        margin-left: 90px;
+        margin-top: -15px;
+        clip-path: circle();
+    }
+
+    .projectbox h4 {
+        position: absolute;
+        margin-top: 40px;
+        margin-left: 200px;
+        font-size: 35px;
+        color: white;
+        font-family: Arial;
+    }
+
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 20px;
+    }
+
+    .projects li {
+        width: 330px;
+        margin-top: 30px;
+        margin-left: 100px;
+        padding-bottom: 14px;
+        background-color: rgb(243, 243, 243);
+        border-radius: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        overflow: hidden;
+    }
+
+    .projects img {
+        margin-top: 40px;
+        transform: rotate(9deg);
+        width: 270px;
+        border-radius: 25px;
+        overflow: hidden;
+        margin-left: 10px;
+        margin-bottom: -50px;
+
+    }
+
+    .projects h6 {
+        margin-top: 25px;
+        margin-left: 25px;
+        font-size: 13px;
+        color: rgb(20, 183, 137);
+    }
+
+    .projects h4 {
+        font-size: 22px;
+        margin-top: 4px;
+        margin-left: 20px;
+    }
+
+
+    .say {
+        padding-top: 40px;
+        padding-bottom: 60px;
+        padding-left: 100px;
+        background-color: #f4f3f3;
+    }
+
+    .saybox {
+        margin-left: 30px;
+        width: 600px;
+        background-color: rgb(20, 183, 137);
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .saybox img {
+        width: 170px;
+        margin-left: 110px;
+        margin-top: 5px;
+        clip-path: circle();
+    }
+
+    .saybox h4 {
+        position: absolute;
+        margin-top: 35px;
+        margin-left: 270px;
+        font-size: 40px;
+        color: rgb(255, 255, 255);
+        font-family: arial;
+
+    }
+
+    #lap {
+        display: flex;
+    }
+
+    .says {
+        width: 600px;
+        background-color: rgb(255, 255, 255);
+        margin-left: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        border-radius: 10px;
+    }
+
+    .says li {
+        width: 300px;
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .link {
+        border-right: 1px solid rgb(219, 219, 219);
+      
+    }
+
+    .link a {
+        margin-top: 5px;
+        text-decoration: none;
+        border: 1px solid rgb(230, 230, 230);
+        font-size: 12px;
+        font-weight: 500;
+        display: inline-block;
+        padding: 4px 8px 4px 8px;
+        margin-left: 10px;
+        margin-bottom: 5px;
+        border-radius: 10px;
+        text-align: center;
+        color: rgb(137, 137, 137);
+
+    }
+
+    .link a:hover {
+        cursor: pointer;
+
+        color: #ef9d9d;
+    }
+
+    .link i {
+        font-size: 15px;
+        margin-top: 8px;
+        margin-left: 5px;
+        margin-bottom: 8px;
+        border: 1px solid rgb(209, 209, 209);
+        padding: 7px;
+        border-radius: 15px;
+
+    }
+
+    .link i:hover {
+        cursor: pointer;
+        color: rgb(255, 0, 195);
+    }
+
+    .says h6 {
+        padding-top: 10px;
+        font-size: 14px;
+        padding-bottom: 2px;
+
+    }
+
+    .says p {
+        color: #6a6a6a;
+        margin-bottom: 5px;
+        margin-top: px;
+        font-size: 14px;
+        padding: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+        margin-right: 5px;
+    }
+
+    form {
+        margin-left: 30px;
+
+    }
+
+    form input {
+        margin-top: 20px;
+        width: 250px;
+        height:20px;
+        margin-left: 8px;
+        padding: 5px 5px 5px 5px;
+        font-size: 10px;
+        border: 1px solid rgb(224, 224, 224);
+        border-radius: 5px;
+
+
+    }
+
+    form ul {
+        display: flex;
+        margin-top: 20px;
+        text-align: center;
+        border-radius: 10px;
+
+
+    }
+
+    form li {
+        width: 80px;
+        margin-left: 30px;
+        border: 1px solid rgb(213, 212, 212);
+        padding: 10px;
+        font-size: 10px;
+        background-color: white;
+        border-radius: 5px;
+    }
+
+    form li i {
+        margin-top: 6px;
+        font-size: 15px;
+        color: rgb(20, 183, 137);
+    }
+
+    form li i:hover {
+        cursor: pointer;
+        color: rgb(196, 15, 45);
+    }
+
+    form li h3 {
+        margin-top: 10px;
+        font-size: 15px;
+        font-weight: 200;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(89, 89, 89);
+    }
+
+    textarea {
+        margin-top: 20px;
+        margin-left: 10px;
+        width: 515px;
+        padding: 5px;
+        font-size: 11px;
+        border: 1px solid rgb(213, 213, 213);
+        border-radius: 10px;
+    }
+
+    .send {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100px;
+        margin-right: 150px;
+        float: right;
+
+        padding: 7px 5px 7px 5px;
+        text-decoration: none;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 600;
+        color: white;
+        background-color: rgb(20, 183, 137);
+    }
+
+    footer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    footer p {
+        font-size: 12px;
+
+    }
+}
